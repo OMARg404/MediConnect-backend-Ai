@@ -7,10 +7,13 @@ MediConnect is a unified, AI-powered healthcare platform that connects patients,
 
 > **Disclaimer:** MediConnect is a decision-support platform and does not replace professional medical diagnosis or clinical judgment. All medical decisions must be made by qualified healthcare professionals.
 
+🔗 **[Live Demo](https://medi-connect-blush-phi.vercel.app/)** — try the platform yourself.
+
 ---
 
 ## Table of contents
 
+- [Live demo](#live-demo)
 - [System overview](#system-overview)
 - [Postman collection](#postman-collection)
 - [Tech stack](#tech-stack)
@@ -23,6 +26,14 @@ MediConnect is a unified, AI-powered healthcare platform that connects patients,
 - [Performance & scalability](#performance--scalability)
 - [Monitoring, logging & backups](#monitoring-logging--backups)
 - [Future roadmap](#future-roadmap)
+
+---
+
+## Live demo
+
+🌐 **[https://medi-connect-blush-phi.vercel.app/](https://medi-connect-blush-phi.vercel.app/)**
+
+Explore the web app directly — browse hospitals/doctors, try the booking flow, and interact with the AI assistant in a live environment.
 
 ---
 
