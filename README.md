@@ -101,6 +101,8 @@ The backend is the **single source of truth** — it owns authentication, bookin
 
 All protected endpoints require a **Bearer JWT token**; the Paymob flow is completed via webhook callback that asynchronously updates the booking's payment status — the backend never blocks an HTTP response waiting on the payment gateway.
 
+📬 **Postman collection (Paymob API):** [MediConnect — Paymob API](https://www.postman.com/interstellar-escape-498060/mediconnect/collection/tyusm54/mediconnect-paymob-api)
+
 ---
 
 ## Database design (ERD)
