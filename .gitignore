@@ -1,0 +1,60 @@
+# dependencies
+node_modules/
+
+# environment variables (VERY IMPORTANT)
+config.env
+.env
+.env-pay
+.env-supervisor
+st.js
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# build/output
+dist/
+build/
+
+# data files
+data/
+Files/
+entities_by_id/
+
+# Postman collections (اختياري)
+*.postman_collection.json
+
+# editor folders
+.vscode/
+.idea/
+
+# temporary files
+tmp/
+temp/
+
+# system / linux artifacts
+*.swp
+*.swo
+
+# =========================
+# PYTHON AI MODULE IGNORE
+# =========================
+
+ai/venv/
+ai/__pycache__/
+ai/*.pyc
+
+# secrets / keys (VERY IMPORTANT)
+ai/api_keys.json
+
+# database files
+ai/*.db
+ai/sessions.db
+
+# optional generated data
+ai/allEntities.json
