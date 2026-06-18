@@ -12,6 +12,7 @@ MediConnect is a unified, AI-powered healthcare platform that connects patients,
 ## Table of contents
 
 - [System overview](#system-overview)
+- [Postman collection](#postman-collection)
 - [Tech stack](#tech-stack)
 - [Backend architecture](#backend-architecture)
 - [Database design (ERD)](#database-design-erd)
@@ -41,6 +42,14 @@ Core system flows (from the Context & Level-1 diagrams):
 - Facilities report status, audit data, and operational metrics.
 - Admins issue administrative actions and receive system reports.
 - All actors can interact with the **AI chatbot** channel.
+
+---
+
+## Postman collection
+
+The full backend + AI API surface (auth, bookings, entities, AI diagnosis sessions, Paymob payments) is documented and testable here:
+
+📬 **[MediConnect — Full API Collection](https://www.postman.com/interstellar-escape-498060/mediconnect)**
 
 ---
 
@@ -100,8 +109,6 @@ The backend is the **single source of truth** — it owns authentication, bookin
 | `/payments/paymob/session` | POST | Create a Paymob payment session for a booking, returns secure iframe URL |
 
 All protected endpoints require a **Bearer JWT token**; the Paymob flow is completed via webhook callback that asynchronously updates the booking's payment status — the backend never blocks an HTTP response waiting on the payment gateway.
-
-📬 **Postman collection (Paymob API):** [MediConnect — Paymob API](https://www.postman.com/interstellar-escape-498060/mediconnect/collection/tyusm54/mediconnect-paymob-api)
 
 ---
 
